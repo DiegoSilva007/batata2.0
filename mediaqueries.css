@@ -1,11 +1,14 @@
-@media(min-width:50px) and (max-width:300px){
+@media(min-width:50px) and (max-width:339px){
     body {
         background: rgba(68,32,10,255);
     }
     #header{
-        width: 160vh;
+       
         justify-content: space-between;
-        
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+      
     }
     
    #Whatsapp{
@@ -71,6 +74,76 @@
 }
 
 
+@media(min-width: 340px) and (max-width:359px){
+    body {
+        background: rgba(68,32,10,255);
+    }
+    #header{
+       
+       width: 157vh;
+    }
+    
+   #Whatsapp{
+    margin-left: 5px;
+     width: 370px;
+     
+    
+    
+   }
+
+    #logo img{
+        width: 420px;
+    }
+    
+    #Contato{
+        height: 120px;  
+        width: 100%;
+       
+    }
+    .fa-whatsapp{
+        font-size: 55px;
+    }
+    .fale{
+        font-size: 47px;
+    }
+    #btn-olaclick{
+        
+        font-size: 45px;
+      
+        height: 120px;  
+        width: 93%;
+       
+      
+      
+        
+    }
+    #container-destaque{
+        display: block;
+       
+    }
+    #title{
+       
+        width: 160vh;
+        
+    }
+    #title img{
+        width: 100%;
+    }
+    #image_title{
+       display: none;
+        overflow: visible;
+        height: 95%;
+        width: 220vh;
+    }
+   
+    footer {
+        margin-top: 350%;
+        
+       width: 160vh;
+        
+        font-size: 65px;
+    }
+}
 
 
 
@@ -100,7 +173,7 @@
    }
 
     #logo img{
-        width: 400px;
+        width: 270px;
     }
     
     #Contato{
@@ -400,47 +473,53 @@
         width: 95vh;
        
     }
+    #logo img{
+        width: 200px;
+    }
     #Whatsapp{
         margin-left: 2px;
-         width: 175px;
+         width: 140px;
     }  
     #Contato{
-        height: 70px;  
-        width: 125%;
+        height: 95px;  
+        width: 130%;
        
     }
     .fa-whatsapp{
-        font-size: 37px;
+        font-size: 40px;
     }
     .fale{
-        font-size: 27px;
+        font-size: 30px;
     }
     #btn-olaclick{
         
-        font-size: 25px;
+        font-size: 30px;
       
-        height: 70px;  
-        width: 200px;
+        height: 97px;  
+        width: 190px;
         
        }
     #container-destaque{
         display: block;
 }
 #title{
-     height: 80%;
-    
-    }
+    height: 200%;
+   width: 97vh;
+  
+   }
 
 #image_title{
-    display: block;
+    display: none;
      overflow: visible;
-     height: 95%;
+     
      width: 95vh;
+     
  }
  footer {
-    margin-top: 135%;
+    margin-top: 100%;
     width: 95vh;
-  font-size: 27px;
+  font-size: 40px;
+  
 }
 }
 @media(min-width: 720px) and (max-width:767px){
@@ -491,7 +570,7 @@
   font-size: 27px;
 }
 }
-@media (min-width: 768px) and (max-width: 819px) {
+@media (min-width: 768px) and (max-width: 819px) and (orientation: portrait)  {
     
     
     #header{
@@ -499,7 +578,7 @@
        
     }
     #logo img{
-        width: 220px;
+        width: 200px;
     }
     #Whatsapp{
         margin-left: 2px;
@@ -530,20 +609,19 @@
 }
 #title{
     width: 80vh;
+   height: 100vh;
     
-   height: 100%;
-    
-    
+    overflow: visible;
 }
 #image_title{
-    display: block;
+    display: none;
      overflow: visible;
-     height: 95%;
+    
      width: 80vh;
  }
 
 footer {
-    margin-top: 135%;
+    margin-top: 50%;
    
     width: 80vh;
     
@@ -559,7 +637,7 @@ footer {
    
     #header{
         width: 68vh;
-       
+      
     }
     #logo img{
         width: 220px;
@@ -614,13 +692,74 @@ footer {
     font-size: 36px;
 }
 }
-@media(min-width: 1024px) and (max-width:1279px) and (orientation: portrait) {
+@media(min-width: 1024px) and (max-width:1179px)  and (orientation: landscape){
+    #header{
+        width: 300vh;
+    
+    }
+    #logo img{
+        width: 275px;
+    } 
+    #Whatsapp{
+        margin-left: 2px;
+         width: 400px;
+      
+    }  
+    #Contato{
+        height: 90px;  
+        width: 100%;
+      
+    }
+    .fa-whatsapp{
+        font-size: 50px;
+    }
+    .fale{
+        font-size: 40px;
+    }
+    #btn-olaclick{
+        
+        font-size: 45px;
+      
+        height: 100px;  
+        width: 400px;
+        
+       }
+
+    #container-destaque{
+        display: block;
+}
+#title{
+    width: 300vh;
+   height: 250%;
+    
+    
+}
+#image_title{
+    display: none;
+     overflow: visible;
+     height: 95%;
+     width: 74vh;
+ }
+
+footer {
+    margin-top: 90%;
+   
+    width: 300vh;
+    
+    font-size: 40px;
+}
+}
+
+
+
+
+@media(min-width: 1024px) and (max-width:1179px) and (orientation: portrait) {
     
     
     
     #header{
         width: 72vh;
-      
+     
     }
     #Whatsapp{
         margin-left: 2px;
@@ -670,22 +809,27 @@ footer {
     font-size: 36px;
 }
 }
-@media(min-width: 1024px) and (max-width:1279px) and (orientation: landscape) {
+
+@media(min-width: 640px) and (max-width: 1023px)and (orientation: landscape) {
     #header{
-        width: 215vh;
-      
+        width: 300vh;
+        
     }
+    #logo img{
+        width: 170px;
+    } 
+    
     #Whatsapp{
-        margin-left: 30%;
-        width: 20%;
+        margin-left: 5px;
+         width: 300px;
     }  
     #Contato{
-        height: 70px;  
+        height: 90px;  
         width: 100%;
        
     }
     .fa-whatsapp{
-        font-size: 35px;
+        font-size: 40px;
     }
     .fale{
         font-size: 30px;
@@ -694,16 +838,32 @@ footer {
         
         font-size: 30px;
       
-        height: 80px;  
-        width: 180px;
+        height: 90px;  
+        width: 300px;
         
        }
-       footer {
-        
-        font-size: 30px;
-        width: 215vh;
-    }
+
+    #container-destaque{
+        display: block;
 }
+#title{
+    width: 300vh;
+   height: 150%;
+    
+    
+}
+#image_title{
+    display: none;
+     overflow: visible;
+     height: 95%;
+     width: 74vh;
+ }
 
-
-
+footer {
+    margin-top: 50%;
+   
+   width: 300vh;
+    
+    font-size: 36px;
+}
+}
